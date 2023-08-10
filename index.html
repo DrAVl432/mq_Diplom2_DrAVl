@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Иннополис</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
 </head>
 
 <body>
@@ -42,23 +42,19 @@
         </div>
     </div>
     <header class="header">
-        <div class="container">
-            <div class="header-top">
-                <a href="#0" class="logo-link">
-                    <img class="logo" src="./sources/svg/noemi-logo.svg" alt="Logo" />
+        <div class="header_wrapper">
+            <div class="header_menu">
+                <a href="#0" class="header__logo_link">
+                    <img class="header-logo" src="./sources/svg/noemi-logo.svg" alt="Logo Noemi" />
                 </a>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a href="#0" class="nav-link">главная</a>
-                        </li>
-                        <li class="nav-item"><a href="#0" class="nav-link">посты</a></li>
-                        <li class="nav-item"><a href="#0" class="nav-link">статьи</a></li>
-                        <li class="nav-item"><a href="#0" class="nav-link">теги</a></li>
-                        <li class="nav-item"><a href="#0" class="nav-link">темы</a></li>
-                        <li class="nav-item">
-                            <a href="#0" class="nav-link">контакты</a>
-                        </li>
+                <nav class="header__nav">
+                    <ul class="header__nav_menu">
+                        <li class="header__nav_menu-item"><a href="#0" class="header_nav_menu-link">главная</a></li>
+                        <li class="header__nav_menu-item"><a href="#0" class="header_nav_menu-link">посты</a></li>
+                        <li class="header__nav_menu-item"><a href="#0" class="header_nav_menu-link">статьи</a></li>
+                        <li class="header__nav_menu-item"><a href="#0" class="header_nav_menu-link">теги</a></li>
+                        <li class="header__nav_menu-item"><a href="#0" class="header_nav_menu-link">темы</a></li>
+                        <li class="header__nav_menu-item"><a href="#0" class="header_nav_menu-link">контакты</a></li>
                     </ul>
                 </nav>
                 <div class="burger">
@@ -73,7 +69,7 @@
                     </svg>
                 </div>
             </div>
-            <h1 class="h1">Блог о творчестве, спорте, и образе жизни</h1>
+            <h1 class="header__main__title">Блог о творчестве, спорте, и образе жизни</h1>
         </div>
     </header>
     <article class="trends">
@@ -142,9 +138,9 @@
         </div>
     </article>
 
-    <div class="main-container">
+    <div class="page">
         <main class="main">
-            <article class="main-card">
+            <article class="main_news">
                 <div class="main-figure">
                     <img class="card-img card-img1" src="./sources/img/last-post1.jpg" alt="beautiful place" />
                 </div>
@@ -153,7 +149,7 @@
                         <li class="card-list-link">
                             <a href="#0" class="card-link">travel</a>
                         </li>
-                        <li class="card-list-link">
+                         <li class="card-list-link">
                             <a href="#0" class="card-link">health</a>
                         </li>
                     </ul>
@@ -164,7 +160,7 @@
                         <time datetime="2019-06-10" class="datetime">10 июня 2019</time>
                         <address class="author">Неизвестный автор</address>
                     </div>
-                    <div class="description-container">
+                    <div class="description-header_wrapper">
                         <p class="description">
                             Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел,
                             запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
@@ -173,7 +169,7 @@
                 </div>
             </article>
 
-            <article class="main-card">
+            <article class="main_news">
                 <div class="main-figure">
                     <img class="card-img card-img2" src="./sources/img/last-post2.jpg" alt="yoga" />
                 </div>
@@ -193,7 +189,7 @@
                         <time datetime="2019-06-10" class="datetime">10 июня 2019</time>
                         <address class="author">Неизвестный автор</address>
                     </div>
-                    <div class="description-container">
+                    <div class="description-header_wrapper">
                         <p class="description">
                             Расскажем, какие упражнения выбрать и как сделать коврик для
                             занятий йогой из того, что можно найти в шкафу.
@@ -202,7 +198,7 @@
                 </div>
             </article>
 
-            <article class="main-card">
+            <article class="main_news">
                 <div class="main-figure">
                     <img class="card-img card-img3" src="./sources/img/last-post3.jpg" alt="music festival" />
                 </div>
@@ -219,7 +215,7 @@
                         <time datetime="2019-06-10" class="datetime">10 июня 2019</time>
                         <address class="author">Неизвестный автор</address>
                     </div>
-                    <div class="description-container">
+                    <div class="description-header_wrapper">
                         <p class="description">
                             Лето на носу, а с ним и музыкальные фестивали. На каком же из
                             них вы разобьёте свою палатку?
@@ -231,7 +227,7 @@
                 </div>
             </article>
 
-            <article class="main-card">
+            <article class="main_news">
                 <div class="main-figure">
                     <img class="card-img card-img4" src="./sources/img/last-post4.jpg" alt="food" />
                 </div>
@@ -251,7 +247,7 @@
                         <time datetime="2019-06-10" class="datetime">10 июня 2019</time>
                         <address class="author">Неизвестный автор</address>
                     </div>
-                    <div class="description-container">
+                    <div class="description-header_wrapper">
                         <p class="description">
                             Узнаем основы проектирования новых пищевых и около-пищевых
                             опытов, вскроем физику, химию и микробиологию еды.
@@ -260,7 +256,7 @@
                 </div>
             </article>
 
-            <article class="main-card">
+            <article class="main_news">
                 <div class="main-figure">
                     <img class="card-img card-img5" src="./sources/img/last-post5.jpg" alt="prints on pillows" />
                 </div>
@@ -284,7 +280,7 @@
                         <time datetime="2019-06-10" class="datetime">10 июня 2019</time>
                         <address class="author">Неизвестный автор</address>
                     </div>
-                    <div class="description-container">
+                    <div class="description-header_wrapper">
                         <p class="description">
                             Подушки для дивана целесообразнее заказать в съемных чехлах на
                             молнии, если потребуется чистка подушек, проще снять чехлы, чем
@@ -515,7 +511,9 @@
                     </li>
                 </ul>
             </address>
+            <a href="#0" class="copyright-link">
             <div class="copyright">Copyright © 2009–2019 City Blog LLC.</div>
+            </a>
         </div>
     </footer>
 </body>
